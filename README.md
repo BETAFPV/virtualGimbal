@@ -61,9 +61,13 @@ sudo apt-get install python3-numpy python3-scipy
 sudo apt-get install python3-matplotlib
 ```
 
-### Install OpenCL: See [detail information](https://github.com/intel/compute-runtime/releases)
+### Install OpenCL
 ```
 sudo apt install ocl-icd-libopencl1 opencl-headers clinfo ocl-icd-opencl-dev  
+```    
+  
+### !!! INTEL GPU ENVIRONMENT ONLY !!!: Install Intel GPU compute-runtime: See [detail information](https://github.com/intel/compute-runtime/releases)
+```  
 cd  
 mkdir neo  
 cd neo  
